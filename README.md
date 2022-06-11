@@ -34,10 +34,12 @@
 <!-- /Markdown TOC -->
 </details>
 
-
-
 <a id="description"></a>
 # Description  
+
+I am currently studying the Full Stack Development Course through Code Institute. Part of the course I am required to complete 4 milestone projects. Grounded Earth Holistics is my 4th milestone project which is part of the Full Stack Frameworks with Django.
+
+Grounded Earth Holistics has been created for customers that would like a holistic experience. This experience includes a deeply relaxing session with either Tuning Forks or healing crystals.
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -129,3 +131,4 @@ Media
 
 Acknowledgements
 
+[Back to Table of Contents](#table-of-contents)
