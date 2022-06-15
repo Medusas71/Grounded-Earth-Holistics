@@ -13,7 +13,7 @@ h1,h2,h3,h4 {
 }
 
 .topnav-color {
-    background-color: #EEEDEB;
+    background-color: #ECB984;
 }
 
 /* from Bulma */
@@ -34,6 +34,15 @@ h1,h2,h3,h4 {
     width: fit-content;
 }
 
+.dropdown-menu {
+    background-color: #ECB984;
+    color: #000;
+}
+
+a.dropdown-item {
+    color: #000;
+}
+
 .home-page-image {
     width: 500px;
     height: 500px;
@@ -48,6 +57,10 @@ h1,h2,h3,h4 {
 .btn-black {
     background: black;
     color: white;
+}
+
+.bg-gray {
+    background: #765032 !important;
 }
 
 .shop-now-button:hover,
