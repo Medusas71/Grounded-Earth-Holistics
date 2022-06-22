@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-1(lwk--an(l37l$^6(38j*&_&kgl6^=w4n8%+!-6=n9%^f802u
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['grounded-earth-holistics', 'localhost']
+ALLOWED_HOSTS = ['grounded-earth-holistics.herokuapp.com', 'localhost']
 
 
 # Application definition
