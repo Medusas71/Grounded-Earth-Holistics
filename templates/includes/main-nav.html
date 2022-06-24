@@ -11,6 +11,7 @@
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="holistic-services">
                 <a href="" class="dropdown-item">Tuning Therapy</a>
+                <a href="" class="dropdown-item">Grounding</a>
             </div>
         </li>
 
@@ -42,21 +43,30 @@
                 <a href="{% url 'products' %}?category=slabs,carvings,spheres,towers,clusters,geodes,roughs,accessories" class="dropdown-item">All Crystals</a>
             </div>
         </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="candles" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Candles
-            </a>
-        </li>
         
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="incense" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Incense
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="candles" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Candles & Candle Holders
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="hako-incense">
-                <a href="{% url 'products' %}?category=hako_incense" class="dropdown-item">Hako Incense</a>
-                <a href="{% url 'products' %}?category=insect_repellent" class="dropdown-item">Natural Insect Repellent</a>
+            <div class="dropdown-menu border-0" aria-labelledby="candles">
+                <a href="{% url 'products' %}?category=candles" class="dropdown-item">Candles</a>
+                <a href="{% url 'products' %}?category=candle_holders" class="dropdown-item">Candle Holders</a>
+        </li>        
+        
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="bath_luxuries" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Bath Luxuries
+            </a>
+            <div class="dropdown-menu border-0" aria-labelledby="bath_luxuries">
+                <a href="{% url 'products' %}?category=bath_salts" class="dropdown-item">Bath Salts</a>
+                <a href="{% url 'products' %}?category=scrubs" class="dropdown-item">Body Scrubs</a>
             </div>
+        </li>
+
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="cacao" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Cacao
+            </a>
         </li>
 
         <li class="nav-item dropdown">
