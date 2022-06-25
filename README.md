@@ -176,6 +176,86 @@ Imagery
 <a id="current-features"></a>
 **Current Features**
 
+Each page features:
+
+* A header that consists of:
+  * Free postage banner
+  * The name of the site
+  * A search bar
+  * My Account icon where you can Register and Login
+  * A Shopping Bag icon with the amount spent
+  * A navbar consisting of Holistic Services, All Products, Crystals, Candles & Candle Holders, Bath Luxuries, Cacao and Gift Packs
+* A footer that consists of About, Copyright and Developed By, a Facebook and Instagram Link
+
+The Home Page features:
+
+* The name of the website
+* Information about what the website is about
+* An image
+* A Shop Now button
+
+The Holistic Services dropdown features:
+
+* Tuning Therapy which directs you to learn all about Tuning Therapy
+* Grounding which directs you to learn all about Grounding techniques
+
+The All Products dropdown features:
+
+* All products by price or category - This displays all products by price and the customer can either sort by:
+  * Price (low to high)
+  * Price (high to low)
+  * Name (A-Z)
+  * Name (Z-A)
+  * Category (A-Z)
+  * Category (Z-A)
+
+The other nav items include:
+
+* Crystals, Candles & Candle Holders, Bath Luxuries, Cacao and Gift Packs
+* Each individual dropdown displays the appropriate products for that category which include:
+  * An image of the product
+  * The name of the product
+  * The price of the product
+  * The category of the product
+* All products are able to be sorted as advised above
+* The number of products displays for the user
+
+All products you can click the image and the product will display in its own page where you can select the quantity and add to bag.
+
+The My Account icon in the header allows a customer to either Log In or Register.
+
+A logged in user can select My Profile from My Account which will display their default delivery information and order history.
+
+The Shopping Bag:
+
+* The Shopping Bag icon displays the amount that is to be charged, after adding products to the shopping bag
+* Gives the customer the option to increase or decrease the quantity and update their shopping bag
+* Gives the customer the option to remove an item from the shopping bag
+* Advises the bag total, delivery fee, grand total, how much more you can spend to get free delivery
+* Gives the customer a link to keep shopping
+* Gives the customer a link to the secure checkout
+
+The Checkout displays:
+
+* A form for the customer to complete with their relevant name, email, phone number and postal details of where to send the product to
+* An order summary of what the customer is about to purchase
+* A payment field where the customer can add their credit card details
+* An adjust bag link if the customer needs to adjust their purchase
+* A complete order link
+* An information prompt that displays how much the customers credit card will be charged
+
+The Complete Order link displays:
+
+* A success message in the top right hand corner
+* A thank you page that provides all the order information
+* That a confirmation email will be sent to the customer
+
+Super User / Site Owner:
+
+* A Super User / Site Owner will also have the option after logging in to be able to go to the Product Management page
+* The Product Management page allows the site owner to add a product
+* Can also go to any product and either edit the product or delete the product
+
 <a id="future-features"></a>
 **Future Features to implement**
 
