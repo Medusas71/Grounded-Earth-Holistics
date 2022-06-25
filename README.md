@@ -3,7 +3,7 @@
 <h3>Milestone Four Project - Full Stack Frameworks With Django</h3>
 <br>
 
-[View the deployed Grounded Earth Holistics]
+[View the deployed Grounded Earth Holistics](https://grounded-earth-holistics.herokuapp.com/)
 
 **Please note: To open any links in this document in a new browser tab, press 'CTRL + Click'.**
 
@@ -94,7 +94,7 @@ Site Owner Goals
 <a id="strategy"></a>
 ### 1. Strategy
 
-The purpose of this project is to create an e-commerce site where users can purchase holistic products through a secure checkout and view what holistic services are available
+The purpose of this project is to create an e-commerce site where users can purchase holistic products through a secure checkout and view what holistic services are available.
 
 <a id="scope"></a>
 ### 2. Scope
@@ -141,14 +141,14 @@ Here are the individual wireframes:
 Colour Scheme
 
 * The original colour scheme of the existing website did not pass the accessibility test so I used colours that had an earthy feel about them.
-* After googling earthy colours I found [this colour scheme](https://www.schemecolor.com/everything-is-earthy-color-scheme.php) by [schemecolor.com](https://www.schemecolor.com/)
-* I used #ECB984 (Middle Yellow Red) as the background colour for the header and footer
+* After googling earthy colours I found [this colour scheme](https://www.schemecolor.com/everything-is-earthy-color-scheme.php) by [schemecolor.com](https://www.schemecolor.com/).
+* I used #ECB984 (Middle Yellow Red) as the background colour for the header and footer.
 * For the free postage banner I took the colour #D58258 and changed the contrast colour to #765032 (Coffee) so it would pass accessibility. These 2 colours compliment each other.
 * The pages have a white #FFFFFF background.
 * The text is all in black #000000.
 
 ![4 Colours](static/images/readme-images/website-colours.jpg)
-Colours were displayed using [Coolors](https://coolors.co/ecb984-765032-000000-ffffff)
+Colours were displayed using [Coolors](https://coolors.co/ecb984-765032-000000-ffffff).
 
 * The colours were checked through [WebAIM](https://webaim.org/resources/contrastchecker/) to ensure the final colours were accessible.
 
@@ -160,7 +160,7 @@ Typography
 * The fonts were sourced from [Google Fonts](https://fonts.google.com/).
 * The main text font I used the same as the original website which is the font family of Raleway.
 * The font from the original website for headings was Jubilat, which is not from Google Fonts.
-* I then googled Raleway font pairing and found a match on [Figma](https://www.figma.com/google-fonts/raleway-font-pairings/#:~:text=Raleway%20font%20pairing,PT%20Sans%2C%20and%20Open%20Sans.)
+* I then googled Raleway font pairing and found a match on [Figma](https://www.figma.com/google-fonts/raleway-font-pairings/#:~:text=Raleway%20font%20pairing,PT%20Sans%2C%20and%20Open%20Sans.).
 * I selected Merriweather for all headings.
 * The backup font for both the headings and the main text is Sans Serif.
 
@@ -275,6 +275,8 @@ Super User / Site Owner:
 
 1. [Bootstrap 4.6 CDN](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - to make the website responsive
 1. [Django](https://www.djangoproject.com/) - a high-level Python web framework used for development of the site
+1. [Jinja](https://jinja.palletsprojects.com/en/3.0.x/) - used as a templating engine for Python
+1. [jQuery](https://developer.mozilla.org/en-US/docs/Glossary/jQuery) - used for the Toasts
 
 **Programs and Resources**
 
@@ -284,6 +286,7 @@ Super User / Site Owner:
 1. [Balsamiq](https://balsamiq.com/) - wireframes
 1. [Code Institute Course Content](https://learn.codeinstitute.net/login?next=/) - main source of fundamental knowledge including the Boutique Ado walk through project
 1. [Coolors](https://coolors.co/) - to display colour palette
+1. [Django Secret Key Generator](https://miniwebtool.com/django-secret-key-generator/) - to generate secret keys
 1. [Favicon Generator](https://favicon.io/emoji-favicons/) - to generate the favicon
 1. [Figma](https://www.figma.com) - for font pairing
 1. [Font Awesome](https://fontawesome.com/v5/search) - for their icons
@@ -291,11 +294,12 @@ Super User / Site Owner:
 1. [GitHub](https://github.com/) - used to store the project files
 1. [Gitpod](https://www.gitpod.io/) - IDE
 1. [Google Fonts](https://fonts.google.com/) - typography
-1. [Heroku](https://id.heroku.com/login) - a container-based cloud Platform as a Service (PaaS) used to deploy the project 
+1. [Heroku](https://id.heroku.com/login) - a container-based cloud Platform as a Service (PaaS) used to deploy the project
 1. [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - to check for issues on all pages
 1. [Scheme Color](https://www.schemecolor.com) - for ideas on earthy colours
 1. [Slack](https://slack.com/) - main source of assistance from other students, developers and documents/resources
 1. [Snagit](https://www.techsmith.com/screen-capture.html) - screen capture and resizing images
+1. [Stripe](https://stripe.com/au) - for secure payments in the checkout
 1. [TinyPNG](https://tinypng.com/) - efficient compression of images for the site
 1. [W3Schools](https://www.w3schools.com/) - to assist with the code
 1. [Wave](https://wave.webaim.org/) - to ensure the content was accessible
