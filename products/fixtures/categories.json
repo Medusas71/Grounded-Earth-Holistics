@@ -67,16 +67,48 @@
         "pk": 9,
         "model": "products.category",
         "fields": {
-            "name": "hako_incense",
-            "friendly_name": "Hako Incense"
+            "name": "candles",
+            "friendly_name": "Candles"
         }
     },
     {
         "pk": 10,
         "model": "products.category",
         "fields": {
-            "name": "insect_repellent",
-            "friendly_name": "Insect Repellent"
+            "name": "candle_holders",
+            "friendly_name": "Candle Holders"
+        }
+    },    
+    {
+        "pk": 11,
+        "model": "products.category",
+        "fields": {
+            "name": "bath_salts",
+            "friendly_name": "Bath Salts"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.category",
+        "fields": {
+            "name": "scrubs",
+            "friendly_name": "Scrubs"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.category",
+        "fields": {
+            "name": "cacao",
+            "friendly_name": "Cacao"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.category",
+        "fields": {
+            "name": "gift_packs",
+            "friendly_name": "Gift Packs"
         }
     }
 ]

@@ -1,0 +1,44 @@
+[
+    {
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku":"slab-1",
+            "name":"Pink Amethyst Slab on a Stand",
+            "description": "Measurements with stand: - 28cm high x 11cm wide \\n Without Stand (Crystal only): - 23cm high x 11cm wide \\n Pink Amethyst opens the heart chakra. It’s good for giving and receiving love as it’s full of love energy. It calms your mind and helps reduce anxiety and fear and discharges negative inner energy from your body. Pink amethyst also helps heal old and new trauma.",
+            "price":175.00,
+            "category":1,
+            "dimensions":"1.47kg",
+            "image_url": "https://images.squarespace-cdn.com/content/v1/61e3a8862531e62193e8cda0/1643159876419-A2EWV4CII43IZTNCH6DR/385F4206-90FD-471B-8A84-B35401CE907B.jpeg?format=1000w",
+            "image":"pink-amethyst-slab-on-stand.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+            "sku":"carvings-1",
+            "name":"Rose Quartz Elephant",
+            "description": "Rose quartz opens the heart to all types of love. Love for Yourself, your family and friends, partners, and love for everything else on the planet \\n It also helps raise self esteem and balances emotions.",
+            "price":17.95,
+            "category":2,
+            "dimensions":"44g \\n 4.5cm x 3cm",
+            "image_url": "",
+            "image": "rose-quartz-elephants.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+            "sku":"carvings-2",
+            "name":"Selenite Angel Heart",
+            "description": "Beautiful selenite heart with Angel wings",
+            "price": 16.95,
+            "category": 2,
+            "dimensions":"168g \\n 7.5cm x 3cm high",
+            "image_url": "",
+            "image": "selenite-angel-heart.jpg"
+        }
+    }
+]
