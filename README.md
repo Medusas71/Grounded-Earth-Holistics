@@ -41,7 +41,7 @@ I am currently studying the Full Stack Development Course through Code Institute
 
 Grounded Earth Holistics is an e-commerce site that has been created for customers that would like a holistic experience. This experience includes a deeply relaxing session with either Tuning Forks or healing crystals. Customers can purchase various products through a secure checkout.
 
-Some of the content and images have been copied from [Grounded Earth Holistics](https://www.groundedearthholistics.com.au/) with their permission.
+Some of the content and all images have been copied from [Grounded Earth Holistics](https://www.groundedearthholistics.com.au/) with their permission.
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -266,9 +266,40 @@ Super User / Site Owner:
 
 **Languages**
 
+1. [HTML5](https://en.wikipedia.org/wiki/HTML5)
+2. [CSS3](https://en.wikipedia.org/wiki/CSS)
+3. [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+4. [Python 3](https://www.python.org/)
+
 **Frameworks and Libraries**
 
+1. [Bootstrap 4.6 CDN](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - to make the website responsive
+1. [Django](https://www.djangoproject.com/) - a high-level Python web framework used for development of the site
+
 **Programs and Resources**
+
+1. [Am I Responsive](https://ui.dev/amiresponsive) - to create a Home Page image on each device for use in the Readme file
+1. [Autoprefixer CSS Online](https://autoprefixer.github.io/) - to ensure all vendor prefixes were included in CSS
+1. [AWS](https://aws.amazon.com/) - a cloud application to hold media files
+1. [Balsamiq](https://balsamiq.com/) - wireframes
+1. [Code Institute Course Content](https://learn.codeinstitute.net/login?next=/) - main source of fundamental knowledge including the Boutique Ado walk through project
+1. [Coolors](https://coolors.co/) - to display colour palette
+1. [Favicon Generator](https://favicon.io/emoji-favicons/) - to generate the favicon
+1. [Figma](https://www.figma.com) - for font pairing
+1. [Font Awesome](https://fontawesome.com/v5/search) - for their icons
+1. [Git](https://git-scm.com/) - version control
+1. [GitHub](https://github.com/) - used to store the project files
+1. [Gitpod](https://www.gitpod.io/) - IDE
+1. [Google Fonts](https://fonts.google.com/) - typography
+1. [Heroku](https://id.heroku.com/login) - a container-based cloud Platform as a Service (PaaS) used to deploy the project 
+1. [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - to check for issues on all pages
+1. [Scheme Color](https://www.schemecolor.com) - for ideas on earthy colours
+1. [Slack](https://slack.com/) - main source of assistance from other students, developers and documents/resources
+1. [Snagit](https://www.techsmith.com/screen-capture.html) - screen capture and resizing images
+1. [TinyPNG](https://tinypng.com/) - efficient compression of images for the site
+1. [W3Schools](https://www.w3schools.com/) - to assist with the code
+1. [Wave](https://wave.webaim.org/) - to ensure the content was accessible
+1. [WebAIM](https://webaim.org/resources/contrastchecker/) - web accessibility contrast checker
 
 [Back to Table of Contents](#table-of-contents)
 
