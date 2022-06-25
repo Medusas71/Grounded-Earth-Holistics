@@ -39,7 +39,9 @@
 
 I am currently studying the Full Stack Development Course through Code Institute. Part of the course I am required to complete 4 milestone projects. Grounded Earth Holistics is my 4th milestone project which is part of the Full Stack Frameworks with Django.
 
-Grounded Earth Holistics has been created for customers that would like a holistic experience. This experience includes a deeply relaxing session with either Tuning Forks or healing crystals.
+Grounded Earth Holistics is an e-commerce site that has been created for customers that would like a holistic experience. This experience includes a deeply relaxing session with either Tuning Forks or healing crystals. Customers can purchase various products through a secure checkout.
+
+Some of the content and images have been copied from Grounded Earth Holistics with their permission.
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -48,6 +50,40 @@ Grounded Earth Holistics has been created for customers that would like a holist
 
 <a id="user-stories"></a>
 ## User Stories  
+
+First Time Customer Goals
+
+* As a first time customer to the website, I would like to:
+  * search for products
+  * see the number of products that are available
+  * view all products
+  * view individual product details
+  * sort the list of available products by price
+  * sort the list of available products by category
+  * read reviews about a product
+  * increase and decrease the item quantity
+  * be able to purchase products through a secure checkout
+  * view items in my shopping bag
+  * adjust items in my shopping bag
+  * receive confirmation that the products have been purchased
+  * create an account
+  * receive confirmation that the account has been created
+
+Returning Customer Goals
+
+* As a returning customer to the website, I would like to:
+  * have the ability to log in so my information is saved
+  * be able to log out of the site
+  * recover my password in case I forget it
+  * create, update and delete my own reviews
+  * read other reviews
+
+Site Owner Goals
+
+* As a site owner of the website, I would like to:
+  * be able to add products
+  * be able to edit products
+  * be able to delete products
 
 [Back to Table of Contents](#table-of-contents)
 
