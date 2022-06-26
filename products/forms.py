@@ -24,21 +24,3 @@ class ProductForm(forms.ModelForm):
         self.fields['category'].choices = friendly_names
         for field_name, field in self.fields.items():
             field.widget.attrs['class'] = 'border-black rounded-0'
-
-
-class ReviewForm(forms.ModelForm):
-    """ Review Form """
-
-    class Meta:
-        """ Meta """
-        model = Review
-        fields = ['review_title', 'review']
-
-
-class CommentForm(forms.ModelForm):
-    """ Comment Form """
-
-    class Meta:
-        """ Meta """
-        model = Comment
-        fields = ['comment']
