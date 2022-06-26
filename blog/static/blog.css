@@ -8,32 +8,36 @@
     text-overflow: ellipsis;
 }
 
-.top-margin {
+/* .top-margin {
     margin-top: 200px;
+} */
+
+.mt-4, .my-4 {
+    margin-top: 10.5rem!important;
 }
 
 .blog-welcome-title {
-    background-color: #432818;
+    position: relative;
+    top: 200px;
+    background-color: #765032;
     color: #fff;
     padding: 5px;
     text-align: center;
     text-transform: uppercase;
-    border: 3px #000 solid !important;
-    border-radius: 3px;
 }
 
 .new-post-button {
-    background-color: #432818;
-    color: #fff;
+    position: relative;
+    top: 200px;
+    background-color: #765032;
+    color: #000;
     margin: 10px;
     padding: 5px;
     text-transform: uppercase;
-    border: 3px #000 solid !important;
-    border-radius: 3px;
 }
 
 .new-post-button:hover {
-    color: #28a745;
+    color: #ECB984;
     text-decoration: none;
 }
 
@@ -42,32 +46,32 @@
 }
 
 .card-body {
-    background-color: #432818 !important;
+    background-color: #765032 !important;
     text-align: center;
 }
 
 .blog-title {
-    color: #fff;
+    color: #000;
 }
 
 .blog-title:hover {
-    color: #28a745;
+    color: #FFF;
     text-decoration: none;
 }
 
 .card-text {
-    background-color: #14591d;
+    background-color: #765032;
     padding: 10px;
 }
 
 .blog-add-comment-link,
 .blog-see-all-comment-link {
-    color: #FFFF2d;
+    color: #000;
 }
 
 .blog-add-comment-link:hover,
 .blog-see-all-comment-link:hover {
-    color: #28a745;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -76,24 +80,22 @@
 .back-to-homepage-button,
 .post-detail-edit-button,
 .post-detail-delete-button {
-    background-color: #432818;
+    background-color: #765032;
     color: #fff;
     margin: 10px;
     padding: 5px;
     text-transform: uppercase;
-    border: 3px #000 solid !important;
-    border-radius: 3px;
 }
 
 .back-to-homepage-button:hover,
 .post-detail-edit-button:hover,
 .post-detail-delete-button:hover {
-    color: #28a745;
+    color: #fff;
     text-decoration: none;
 }
 
 .add-review-box {
-    background-color: #14591d;
+    background-color: #765032;
     padding: 10px;
 }
 
@@ -102,17 +104,15 @@
 }
 
 .add-review-login-link:hover {
-    color: #FFFF2d;
+    color: #FFFF;
     text-decoration: none;
 }
 
 .submit-comment-button,
 .reset-comment-button {
-    background-color: #432818;
+    background-color: #765032;
     color: #fff;
     text-transform: uppercase;
-    border: 3px #000 solid !important;
-    border-radius: 3px;
 }
 
 .reset-comment-button,
@@ -122,30 +122,28 @@
 
 .submit-comment-button:hover,
 .reset-comment-button:hover {
-    color: #28a745;
+    color: #FFF;
 }
 
 .delete-blog-modal-button {
-    background-color: #dc3545;
+    background-color: #765032;
     color: #fff !important;
     text-transform: uppercase !important;
-    border: 3px #000 solid;
     float: right;
 }
 
 .delete-blog-modal-button:hover {
-    color: #ffc107 !important;
+    color: #fff !important;
 }
 
 .blog-delete-modal {
-    background-color: #432818;
+    background-color: #765038;
     color: #fff;
     text-transform: uppercase;
-    border: 3px #dc3545 solid;
 }
 
 .modal-header {
-    border-bottom: 1px #dc3545 solid;
+    border-bottom: 1px;
 }
 
 .text-danger {
@@ -153,19 +151,19 @@
 }
 
 .modal-footer {
-    border-top: 1px #dc3545 solid;
+    border-top: 1px solid;
 }
 
 .modal-header .close {
-    color: #dc3545;
+    color: #000;
 }
 
 .modal-header .close:hover {
-    color: #ffc107;
+    color: #765032;
 }
 
 .blog-modal-delete-button {
-    background-color: #dc3545;
+    background-color: #ECB984;
     color: #fff !important;
     border: 2px #000 solid;
 }
@@ -173,33 +171,33 @@
 a.text-danger:focus,
 a.text-danger:hover,
 .modal-delete-button:hover {
-    color: #ffc107 !important;
+    color: #000 !important;
 }
 
 .blog-modal-cancel-button {
-    background-color: #14591d;
+    background-color: #765032;
     color: #fff !important;
     text-transform: uppercase;
     border: 2px #000 solid;
 }
 
 .blog-modal-cancel-button:hover {
-    background-color: #14591d;
+    background-color: #765032;
     color: #ffc107 !important;
-    border: 2px #000 solid;
+    border: 2px solid;
 }
 
 /* add post page */
 
 .add-blog-title-heading {
-    background-color: #432818;
+    background-color: #765032;
     color: #fff;
     font-size: 70px;
     margin: 10px;
     padding: 5px;
     text-align: center;
     text-transform: uppercase;
-    border: 3px #000 solid;
+    border: 3px solid;
 }
 
 .add-new-post-box {
@@ -208,7 +206,7 @@ a.text-danger:hover,
 
 .submit-add-post-button,
 .cancel-add-post-button {
-    background-color: #14591d;
+    background-color: #765032;
     color: #fff;
     text-transform: uppercase;
     border: 3px #000 solid !important;
@@ -223,7 +221,7 @@ a.text-danger:hover,
 /* edit blog post page */
 
 .edit-blog-title-heading {
-    background-color: #432818;
+    background-color: #765032;
     color: #fff;
     font-size: 70px;
     margin: 10px;
@@ -234,10 +232,10 @@ a.text-danger:hover,
 
 .edit-post-update-button,
 .cancel-post-update-button {
-    background-color: #14591d;
+    background-color: #ECB984;
     color: #fff;
     text-transform: uppercase;
-    border: 3px #000 solid !important;
+    border: 3px solid !important;
     border-radius: 3px;
 }
 
@@ -258,6 +256,10 @@ a.text-danger:hover,
     .add-blog-title-heading {
         font-size: 1.7rem;
     }
+
+    .mt-4, .my-4 {
+        margin-top: 15.5rem!important;
+    }
 }
 
 @media (max-width: 576px) {
@@ -266,5 +268,12 @@ a.text-danger:hover,
 
     .blog-card {
         margin: 20px;
+    }
+}
+
+@media screen (min-width: 992px) {
+    
+    .mt-4, .my-4 {
+        margin-top: 20.5rem!important;
     }
 }
