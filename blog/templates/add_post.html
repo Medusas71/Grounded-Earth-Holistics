@@ -18,6 +18,7 @@
                     <div class="card-body">
                         <form action="{% url 'add_post' %}" method="POST">
                             {% csrf_token %}
+                            {{ form | crispy }}
                             <div class="row">
                                 <div class="col-6">
                                     <button class="btn submit-add-post-button" type="submit">Add Post</button>
