@@ -91,10 +91,21 @@
                             </div>
                             <input type="hidden" name="redirect_url" value="{{ request.path }}">
                         </div>
-                    </form>
+                    </form>                    
                 </div>
             </div>
         </div>
+
+        {% for review in review %}
+        <div class="row">
+            <div class="col-12">
+                <p class="mb-0 text-black font-weight-bold">{{ review.title }}</p>
+                <p class="mb-0 text-black">{{ review.content }}</p>
+                <p class="mb-0 text-black">{{ review.author }}</p>
+                <p class="mb-0 text-black">{{ review.date }}</p>
+            </div>
+        </div>
+        {% endfor %}
     </div>
 {% endblock %}
 
