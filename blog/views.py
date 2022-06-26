@@ -38,7 +38,7 @@ def add_post(request):
     else:
         form = PostForm()
 
-    template = 'blog/add_post.html'
+    template = 'add_post.html'
     context = {
         'form': form,
     }
@@ -71,7 +71,7 @@ def post_detail(request, slug):
     else:
         form = CommentForm()
 
-    template = 'blog/post_detail.html'
+    template = 'post_detail.html'
     context = {
         'post': post,
         'form': form
@@ -105,7 +105,7 @@ def edit_post(request, slug):
         form = PostForm(instance=post)
         messages.info(request, f'You are editing {post.title}')
 
-    template = 'blog/edit_post.html'
+    template = 'edit_post.html'
     context = {
         'post': post,
         'form': form,
