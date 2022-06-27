@@ -1,4 +1,4 @@
-/* blog page */
+/* Review page */
 
 /* truncate text if product name too long https: //css-tricks.com/flexbox-truncated-text/  */
 
@@ -9,77 +9,91 @@
 }
 
 /* .top-margin {
-    margin-top: 200px;
+    margin-top: 100px;
 } */
 
 .mt-4, .my-4 {
-    margin-top: 10.5rem!important;
+    margin-top: 5.5rem !important;
 }
 
-.blog-welcome-title {
-    position: relative;
-    top: 200px;
+.mt-5, .my-5 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important
+}
+
+a.nav-link {
+    color: #000;
+}
+
+.review-welcome-title {
+    /* position: relative; */
+    /* top: 50px; */
     background-color: #765032;
     color: #fff;
     padding: 5px;
     text-align: center;
-    text-transform: uppercase;
 }
 
 .new-post-button {
-    position: relative;
-    top: 200px;
-    background-color: #765032;
-    color: #000;
-    margin: 10px;
-    padding: 5px;
-    text-transform: uppercase;
+    /* position: relative; */
+    /* top: 200px; */
+    background: black;
+    color: white;
+    min-width: 260px;
 }
 
-.new-post-button:hover {
-    color: #ECB984;
-    text-decoration: none;
+.new-post-button:hover,
+.new-post-button:active,
+.new-post-button:focus {
+    background: #222;
+    color: white !important;
 }
 
-.blog-card {
-    margin: 10px;
+.review-card {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .card-body {
-    background-color: #765032 !important;
+    background-color: #ECB984 !important;
     text-align: center;
 }
 
-.blog-title {
+.review-title {
     color: #000;
 }
 
-.blog-title:hover {
-    color: #FFF;
+.review-title:hover {
+    color: #222;
     text-decoration: none;
 }
 
+.card-title {
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+}
+
 .card-text {
-    background-color: #765032;
+    background-color: #ECB984;
     padding: 10px;
 }
 
-.blog-add-comment-link,
-.blog-see-all-comment-link {
+.review-add-comment-link,
+.review-see-all-comment-link {
     color: #000;
 }
 
-.blog-add-comment-link:hover,
-.blog-see-all-comment-link:hover {
-    color: #fff;
+.review-add-comment-link:hover,
+.review-see-all-comment-link:hover {
+    color: #222;
     text-decoration: none;
 }
 
 /* post detail page */
 
-.back-to-homepage-button,
-.post-detail-edit-button,
-.post-detail-delete-button {
+.back-to-homepage-button {
     background-color: #765032;
     color: #fff;
     margin: 10px;
@@ -87,11 +101,27 @@
     text-transform: uppercase;
 }
 
-.back-to-homepage-button:hover,
-.post-detail-edit-button:hover,
-.post-detail-delete-button:hover {
+.back-to-homepage-button:hover {
     color: #fff;
     text-decoration: none;
+}
+
+.post-detail-edit-button,
+.delete-review-modal-button {
+    background: black;
+    color: white;
+    font-size: 16px;
+    min-width: 80px;
+}
+
+.post-detail-edit-button:hover,
+.post-detail-edit-button:active,
+.post-detail-edit-button:focus,
+.delete-review-modal-button:hover,
+.delete-review-modal-button:active,
+.delete-review-modal-button:focus {
+    background: #222;
+    color: white !important;
 }
 
 .add-review-box {
@@ -108,11 +138,15 @@
     text-decoration: none;
 }
 
+.comments-heading {
+    font-size: 20px;
+}
+
 .submit-comment-button,
 .reset-comment-button {
-    background-color: #765032;
+    background: black;
     color: #fff;
-    text-transform: uppercase;
+    font-size: 16px;
 }
 
 .reset-comment-button,
@@ -121,22 +155,24 @@
 }
 
 .submit-comment-button:hover,
-.reset-comment-button:hover {
-    color: #FFF;
+.submit-comment-button:active,
+.submit-comment-button:focus,
+.reset-comment-button:hover,
+.reset-comment-button:focus,
+.reset-comment-button:active {
+    background: #222;
+    color: white !important;
 }
 
-.delete-blog-modal-button {
-    background-color: #765032;
-    color: #fff !important;
-    text-transform: uppercase !important;
+.delete-review-modal-button {
     float: right;
 }
 
-.delete-blog-modal-button:hover {
+.delete-review-modal-button:hover {
     color: #fff !important;
 }
 
-.blog-delete-modal {
+.review-delete-modal {
     background-color: #765038;
     color: #fff;
     text-transform: uppercase;
@@ -162,10 +198,17 @@
     color: #765032;
 }
 
-.blog-modal-delete-button {
-    background-color: #ECB984;
-    color: #fff !important;
-    border: 2px #000 solid;
+.review-modal-delete-button {
+    background: black;
+    color: #fff;
+    font-size: 16px;
+}
+
+.review-modal-delete-button:hover,
+.review-modal-delete-button:active,
+.review-modal-delete-button:focus {
+    background: #222;
+    color: white !important;
 }
 
 a.text-danger:focus,
@@ -174,25 +217,25 @@ a.text-danger:hover,
     color: #000 !important;
 }
 
-.blog-modal-cancel-button {
-    background-color: #765032;
-    color: #fff !important;
-    text-transform: uppercase;
-    border: 2px #000 solid;
+.review-modal-cancel-button {
+    background: black;
+    color: #FFFF;
+    font-size: 16px;
 }
 
-.blog-modal-cancel-button:hover {
-    background-color: #765032;
-    color: #ffc107 !important;
-    border: 2px solid;
+.review-modal-cancel-button:hover,
+.review-modal-cancel-button:active,
+.review-modal-cancel-button:focus {
+    background: #222;
+    color: white !important;
 }
 
 /* add post page */
 
-.add-blog-title-heading {
+.add-review-title-heading {
     background-color: #765032;
     color: #fff;
-    font-size: 70px;
+    font-size: 32px;
     margin: 10px;
     padding: 5px;
     text-align: center;
@@ -200,30 +243,35 @@ a.text-danger:hover,
     border: 3px solid;
 }
 
-.add-new-post-box {
+/* .add-new-post-box {
     opacity: 0.9;
-}
+} */
 
 .submit-add-post-button,
 .cancel-add-post-button {
-    background-color: #765032;
+    background: black;
     color: #fff;
-    text-transform: uppercase;
-    border: 3px #000 solid !important;
-    border-radius: 3px;
+    font-size: 16px;
+    /* border: 3px #000 solid !important;
+    border-radius: 3px; */
 }
 
 .submit-add-post-button:hover,
-.cancel-add-post-button:hover {
-    color: #000;
+.submit-add-post-button:active,
+.submit-add-post-button:focus,
+.cancel-add-post-button:hover,
+.cancel-add-post-button:active,
+.cancel-add-post-button:focus {
+    background: #222;
+    color: white !important;
 }
 
-/* edit blog post page */
+/* edit review post page */
 
-.edit-blog-title-heading {
+.edit-review-title-heading {
     background-color: #765032;
     color: #fff;
-    font-size: 70px;
+    font-size: 32px;
     margin: 10px;
     padding: 5px;
     text-align: center;
@@ -232,48 +280,68 @@ a.text-danger:hover,
 
 .edit-post-update-button,
 .cancel-post-update-button {
-    background-color: #ECB984;
+    background: black;
     color: #fff;
-    text-transform: uppercase;
-    border: 3px solid !important;
-    border-radius: 3px;
+    font-size: 16px;
 }
 
 .edit-post-update-button:hover,
-.cancel-post-update-button:hover {
-    color: #000;
+.edit-post-update-button:active,
+.edit-post-update-button:focus,
+.cancel-post-update-button:hover
+.cancel-post-update-button:active,
+.cancel-post-update-button:focus {
+    background: #222;
+    color: white !important;
 }
 
-@media (max-width: 320px) {
+@media screen and (max-width: 320px) {
 
-    /* blog page */
+    /* Review page */
 
-    .blog-welcome-title {
+    .review-welcome-title {
         font-size: 2rem;
     }
 
-    /* add blog page */
-    .add-blog-title-heading {
-        font-size: 1.7rem;
+    /* add review page */
+    .add-review-title-heading {
+        font-size: 2rem;
     }
 
     .mt-4, .my-4 {
-        margin-top: 15.5rem!important;
+        margin-top: 15.5rem !important;
     }
 }
 
-@media (max-width: 576px) {
+@media screen and (min-width: 576px) {
 
-    /* blog page */
+    /* review page */
 
-    .blog-card {
+    .mt-4, .my-4 {
+        margin-top: 8.5rem !important;
+    }
+
+    .review-card {
         margin: 20px;
     }
 }
 
-@media screen (min-width: 992px) {
+@media (min-width: 768) {
+    /* .mt-4, .my-4 {
+        margin-top: 9.5rem !important;
+    } */
+}
+
+@media screen and (min-width: 992px) {
     
     .mt-4, .my-4 {
-        margin-top: 20.5rem!important;
+        margin-top: 20.5rem !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    
+    .mt-4, .my-4 {
+        margin-top: 15.5rem !important;
     }
 }

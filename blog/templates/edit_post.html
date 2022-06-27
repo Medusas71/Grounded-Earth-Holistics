@@ -7,24 +7,24 @@
 
 {% block content %}
     <div class="container-fluid">
-        <div class="row">
-            <div class="col-5 offset-4">
-                <h1 class="edit-blog-title-heading my-3">Edit a Blog Post</h1>
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <h1 class="edit-review-title-heading my-4 text-uppercase">Edit a Review</h1>
             </div>
         </div>
-        <div class="row">
-            <div class="col-9 offset-2">
-                <div class="card my-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-8 com-sm-8">
+                <div class="card edit-review-post my-6">
                     <div class="card-body">
                         <form action="{% url 'edit_post' post.slug %}" method="POST">
                             {% csrf_token %}
                             {{ form | crispy }}
                             <div class="row">
-                                <div class="col">
-                                    <button class="btn edit-post-update-button" type="submit">Update Post</button>
+                                <div class="col-6">
+                                    <button class="edit-post-update-button btn btn-lg rounded-0 text-uppercase" type="submit">Update Post</button>
                                 </div>
-                                <div class="col">
-                                    <a href="{% url 'post_detail' post.slug %}" class="btn cancel-post-update-button">
+                                <div class="col-6">
+                                    <a class="cancel-post-update-button btn btn-lg rounded-0 text-uppercase" href="{% url 'post_detail' post.slug %}" >
                                         Cancel
                                     </a>
                                 </div>
