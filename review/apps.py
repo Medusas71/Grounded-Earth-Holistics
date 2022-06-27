@@ -3,7 +3,7 @@
 from django.apps import AppConfig
 
 
-class BlogConfig(AppConfig):
-    """ blog config class """
+class ReviewConfig(AppConfig):
+    """ review config class """
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'blog'
+    name = 'review'

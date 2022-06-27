@@ -36,7 +36,7 @@ class Migration(migrations.Migration):
                 ('comment', models.TextField()),
                 ('date_added', models.DateTimeField(auto_now_add=True)),
                 ('comment_author', models.ForeignKey(default=1, on_delete=django.db.models.deletion.CASCADE, related_name='comment', to=settings.AUTH_USER_MODEL)),
-                ('post', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='comments', to='blog.post')),
+                ('post', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='comments', to='review.post')),
             ],
         ),
     ]

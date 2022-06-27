@@ -2,7 +2,7 @@
 {% load static %}
 
 {% block extra_css %}
-    <link rel="stylesheet" href="{% static 'blog.css' %}">
+    <link rel="stylesheet" href="{% static 'review.css' %}">
 {% endblock %}
 
 {% block extra_js %}
@@ -14,7 +14,7 @@
     <div class="container-fluid">
         <div class="row my-4">
             <div class="col-12">
-                <a href="{% url 'blog' %}" class="button back-to-homepage-button">
+                <a href="{% url 'review' %}" class="button back-to-homepage-button">
                     <i class="fas fa-chevron-left"></i> Back to review homepage</a>
             </div>
         </div>
@@ -31,7 +31,7 @@
                             {{ post.content | capfirst }}
                         </p>
                         <div class="review-content content">
-                            <p class="blog-p">By: <span class="blog-small">{{ post.author }},
+                            <p>By: <span>{{ post.author }},
                                     {{ post.created_on|timesince }}
                                     ago </span></p>
                         </div>
@@ -85,7 +85,7 @@
                 </div>
             </div>
             <div class="col">
-                <div class="card blog-card my-5 comments">
+                <div class="card review-card my-5 comments">
                     <div class="card-body text-black">
                         <div class="card-title">
                             <p class="comments-heading">Comments about {{ post.title }}</p>
@@ -96,10 +96,10 @@
                             <article class="media">
                                 <div class="media-content">
                                     <div class="content">
-                                        <p class="blog-content">
+                                        <p class="review-content">
                                             {{ comment.comment }}
                                         </p>
-                                        <p>comment by: <span class="blog-small">{{ comment.comment_author }}
+                                        <p>comment by: <span>{{ comment.comment_author }}
                                                 {{ comment.date_added|timesince }} ago</span>
                                         </p>
                                     </div>

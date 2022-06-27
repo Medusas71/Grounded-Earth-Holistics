@@ -8,9 +8,9 @@ from .models import Post
 from .forms import CommentForm, PostForm
 
 
-def blog(request):
+def review(request):
     posts = Post.objects.all()
-    template = 'blog.html'
+    template = 'review.html'
     context = {
         'posts': posts
     }
@@ -19,7 +19,7 @@ def blog(request):
 
 @login_required
 def add_post(request):
-    """ a view to add a post to the blog """
+    """ a view to add a post to the review """
 
     if request.method == "POST":
         form = PostForm(request.POST or None, request.FILES or None)
@@ -29,11 +29,11 @@ def add_post(request):
             obj.author = author
             obj.save()
 
-            messages.success(request, "Successfully added your blog post")
+            messages.success(request, "Successfully added your review")
             return redirect(reverse('post_detail', args=[obj.slug]))
         else:
             messages.error(
-                request, "Failed to add blog post, please check the form is \
+                request, "Failed to add review, please check the form is \
                     valid")
     else:
         form = PostForm()
@@ -48,7 +48,7 @@ def add_post(request):
 
 @login_required
 def post_detail(request, slug):
-    """ a view to see the blog post with potential to add a comment """
+    """ a view to see the review post with potential to add a comment """
     context = {}
     post = Post.objects.get(slug=slug)
 
@@ -94,7 +94,7 @@ def edit_post(request, slug):
                 obj = form.save(commit=False)
                 obj.save()
                 post = obj
-                messages.success(request, "Successfully edited your blog post")
+                messages.success(request, "Successfully edited your Review")
                 return redirect(reverse('post_detail', args=[obj.slug]))
             else:
                 messages.error(request, "Failed to update post.")
@@ -122,7 +122,7 @@ def delete_post(request, slug):
     if post.author == user:
         post.delete()
         messages.success(request, f'You have deleted {post.title}')
-        return redirect(reverse('blog'))
+        return redirect(reverse('review'))
 
     else:
         messages.error(request, "You are not allowed to do that.")

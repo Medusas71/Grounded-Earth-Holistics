@@ -25,14 +25,14 @@ class Post(models.Model):
         return str(self.title)
 
 
-def pre_save_blog_post_receiver(sender, instance, *args, **kwargs):
-    """ Pre save blog post receiver """
+def pre_save_review_post_receiver(sender, instance, *args, **kwargs):
+    """ Pre save review post receiver """
     if not instance.slug:
         instance.slug = slugify(
             instance.author.username + "-" + instance.title)
 
 
-pre_save.connect(pre_save_blog_post_receiver, sender=Post)
+pre_save.connect(pre_save_review_post_receiver, sender=Post)
 
 
 # comments model
