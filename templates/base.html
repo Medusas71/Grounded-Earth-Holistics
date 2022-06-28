@@ -147,6 +147,29 @@
 
     {% block content %}
     {% endblock %}
+<!-- Footer courtesy of mdbootstrap.com - see Readme for Credits -->
+<footer class="footer-background text-center text-lg-start">
+    <section class="d-flex justify-content-between p-4">
+        <div class="me-5 nav-link">
+            <a href="{% url 'home' %}" class="footer-button-style text-black text-uppercase font-weight-bold me-4">
+                About
+            </a>
+        </div>
+        <div class="text-center text-black font-weight-bold copyright-style p-3">
+            <p>&copy; Grounded Earth Holistics 2022</p>
+            <p>Developed by Megan Vella</p>
+            <p>This site was made for educational purposes and no orders will be fulfilled</p>
+        </div>
+        <div class="social-media-links">
+            <a href="https://www.facebook.com/groundedearthholistics/" class="text-black me-4">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="https://www.instagram.com/grounded_earth_holistics/" class="text-black me-4">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </section>
+</footer>
 
     {% block postloadjs %}
     <script type="text/javascript">

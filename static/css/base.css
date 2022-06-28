@@ -11,6 +11,10 @@ body {
     margin-top: 200px;
 }
 
+.container {
+    margin-bottom: 10px;
+}
+
 h1,h2,h3,h4 {
     font-family: 'Merriweather', sans-serif;
 }
@@ -190,6 +194,30 @@ input[name='q']::placeholder {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
+}
+
+/*----------------------------------------------------Footer*/
+
+.footer-background {
+    background-color: #ECB984;
+}
+
+.footer-button-style {
+    text-decoration: none;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.copyright-style p {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.social-media-links a i {
+    font-size: 30px;
+    padding: 10px;
+    margin-right: 20px;
 }
 
 /* ------------------------------------- Media Queries */
