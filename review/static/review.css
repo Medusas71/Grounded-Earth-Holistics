@@ -8,10 +8,6 @@
     text-overflow: ellipsis;
 }
 
-/* .top-margin {
-    margin-top: 100px;
-} */
-
 .mt-4, .my-4 {
     margin-top: 5.5rem !important;
 }
@@ -25,26 +21,52 @@ a.nav-link {
     color: #000;
 }
 
-.review-welcome-title {
-    /* position: relative; */
-    /* top: 50px; */
+.container-fluid {
+    margin-bottom: 20px;
+}
+
+.review-welcome-title,
+.add-review-title-heading,
+.edit-review-title-heading {
     background-color: #765032;
     color: #fff;
     padding: 5px;
     text-align: center;
 }
 
-.new-post-button {
-    /* position: relative; */
-    /* top: 200px; */
-    background: black;
-    color: white;
-    min-width: 260px;
-}
-
 .new-post-button:hover,
 .new-post-button:active,
-.new-post-button:focus {
+.new-post-button:focus,
+.submit-add-post-button:hover,
+.submit-add-post-button:active,
+.submit-add-post-button:focus,
+.cancel-add-post-button:hover,
+.cancel-add-post-button:active,
+.cancel-add-post-button:focus,
+.post-detail-edit-button:hover,
+.post-detail-edit-button:active,
+.post-detail-edit-button:focus,
+.edit-post-update-button:hover,
+.edit-post-update-button:active,
+.edit-post-update-button:focus,
+.cancel-post-update-button:hover,
+.cancel-post-update-button:active,
+.cancel-post-update-button:focus,
+.delete-review-modal-button:hover,
+.delete-review-modal-button:active,
+.delete-review-modal-button:focus,
+.submit-comment-button:hover,
+.submit-comment-button:active,
+.submit-comment-button:focus,
+.reset-comment-button:hover,
+.reset-comment-button:focus,
+.reset-comment-button:active,
+.review-modal-cancel-button:hover,
+.review-modal-cancel-button:active,
+.review-modal-cancel-button:focus,
+.review-modal-delete-button:hover,
+.review-modal-delete-button:active,
+.review-modal-delete-button:focus {
     background: #222;
     color: white !important;
 }
@@ -63,7 +85,9 @@ a.nav-link {
     color: #000;
 }
 
-.review-title:hover {
+.review-title:hover,
+.review-add-comment-link:hover,
+.review-see-all-comment-link:hover {
     color: #222;
     text-decoration: none;
 }
@@ -85,12 +109,6 @@ a.nav-link {
     color: #000;
 }
 
-.review-add-comment-link:hover,
-.review-see-all-comment-link:hover {
-    color: #222;
-    text-decoration: none;
-}
-
 /* post detail page */
 
 .back-to-homepage-button {
@@ -106,22 +124,20 @@ a.nav-link {
     text-decoration: none;
 }
 
+.new-post-button,
 .post-detail-edit-button,
-.delete-review-modal-button {
+.delete-review-modal-button,
+.submit-comment-button,
+.reset-comment-button,
+.review-modal-delete-button,
+.review-modal-cancel-button,
+.submit-add-post-button,
+.cancel-add-post-button,
+.edit-post-update-button,
+.cancel-post-update-button {
     background: black;
     color: white;
-    font-size: 16px;
-    min-width: 80px;
-}
-
-.post-detail-edit-button:hover,
-.post-detail-edit-button:active,
-.post-detail-edit-button:focus,
-.delete-review-modal-button:hover,
-.delete-review-modal-button:active,
-.delete-review-modal-button:focus {
-    background: #222;
-    color: white !important;
+    font-size: 14px;
 }
 
 .add-review-box {
@@ -142,29 +158,9 @@ a.nav-link {
     font-size: 20px;
 }
 
-.submit-comment-button,
-.reset-comment-button {
-    background: black;
-    color: #fff;
-    font-size: 16px;
-}
-
 .reset-comment-button,
-.post-detail-delete-button {
-    float: right;
-}
-
-.submit-comment-button:hover,
-.submit-comment-button:active,
-.submit-comment-button:focus,
-.reset-comment-button:hover,
-.reset-comment-button:focus,
-.reset-comment-button:active {
-    background: #222;
-    color: white !important;
-}
-
-.delete-review-modal-button {
+.post-detail-delete-button,
+.delete-review-modal-button  {
     float: right;
 }
 
@@ -182,10 +178,6 @@ a.nav-link {
     border-bottom: 1px;
 }
 
-.text-danger {
-    font-weight: bolder;
-}
-
 .modal-footer {
     border-top: 1px solid;
 }
@@ -198,115 +190,15 @@ a.nav-link {
     color: #765032;
 }
 
-.review-modal-delete-button {
-    background: black;
-    color: #fff;
-    font-size: 16px;
-}
-
-.review-modal-delete-button:hover,
-.review-modal-delete-button:active,
-.review-modal-delete-button:focus {
-    background: #222;
-    color: white !important;
-}
-
 a.text-danger:focus,
 a.text-danger:hover,
 .modal-delete-button:hover {
     color: #000 !important;
 }
 
-.review-modal-cancel-button {
-    background: black;
-    color: #FFFF;
-    font-size: 16px;
-}
-
-.review-modal-cancel-button:hover,
-.review-modal-cancel-button:active,
-.review-modal-cancel-button:focus {
-    background: #222;
-    color: white !important;
-}
-
-/* add post page */
-
-.add-review-title-heading {
-    background-color: #765032;
-    color: #fff;
-    font-size: 32px;
-    margin: 10px;
-    padding: 5px;
-    text-align: center;
-    text-transform: uppercase;
-    border: 3px solid;
-}
-
-/* .add-new-post-box {
-    opacity: 0.9;
-} */
-
-.submit-add-post-button,
-.cancel-add-post-button {
-    background: black;
-    color: #fff;
-    font-size: 16px;
-    /* border: 3px #000 solid !important;
-    border-radius: 3px; */
-}
-
-.submit-add-post-button:hover,
-.submit-add-post-button:active,
-.submit-add-post-button:focus,
-.cancel-add-post-button:hover,
-.cancel-add-post-button:active,
-.cancel-add-post-button:focus {
-    background: #222;
-    color: white !important;
-}
-
-/* edit review post page */
-
-.edit-review-title-heading {
-    background-color: #765032;
-    color: #fff;
-    font-size: 32px;
-    margin: 10px;
-    padding: 5px;
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.edit-post-update-button,
-.cancel-post-update-button {
-    background: black;
-    color: #fff;
-    font-size: 16px;
-}
-
-.edit-post-update-button:hover,
-.edit-post-update-button:active,
-.edit-post-update-button:focus,
-.cancel-post-update-button:hover
-.cancel-post-update-button:active,
-.cancel-post-update-button:focus {
-    background: #222;
-    color: white !important;
-}
+/* ------------------ Media Queries */
 
 @media screen and (max-width: 320px) {
-
-    /* Review page */
-
-    .review-welcome-title {
-        font-size: 2rem;
-    }
-
-    /* add review page */
-    .add-review-title-heading {
-        font-size: 2rem;
-    }
 
     .mt-4, .my-4 {
         margin-top: 15.5rem !important;
@@ -315,21 +207,9 @@ a.text-danger:hover,
 
 @media screen and (min-width: 576px) {
 
-    /* review page */
-
     .mt-4, .my-4 {
         margin-top: 8.5rem !important;
     }
-
-    .review-card {
-        margin: 20px;
-    }
-}
-
-@media (min-width: 768) {
-    /* .mt-4, .my-4 {
-        margin-top: 9.5rem !important;
-    } */
 }
 
 @media screen and (min-width: 992px) {
@@ -342,6 +222,6 @@ a.text-danger:hover,
 @media screen and (min-width: 1200px) {
     
     .mt-4, .my-4 {
-        margin-top: 15.5rem !important;
+        margin-top: 18.5rem !important;
     }
 }

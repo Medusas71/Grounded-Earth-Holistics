@@ -62,7 +62,7 @@
                                                     Are you sure you want to delete
                                                     <span> {{ post.title }}?</span>
                                                 </h4>
-                                                <p class="text-danger">This action cannot be undone!!!</p>
+                                                <p class="text-white">This action cannot be undone!!!</p>
                                             </div>
                                             <div class="modal-footer">
                                                 <a class="review-modal-delete-button btn btn-lg rounded-0 text-uppercase" href="{% url 'delete_post' post.slug %}">Delete</a>
@@ -116,10 +116,10 @@
                             <div class="field">
                                 <div class="control">
                                     <div class="row">
-                                        <div class="col">
+                                        <div class="col-6">
                                             <button class="submit-comment-button btn btn-lg rounded-0 text-uppercase">Submit</button>
                                         </div>
-                                        <div class="col">
+                                        <div class="col-6">
                                             <button type="reset" class="reset-comment-button btn btn-lg rounded-0 text-uppercase">Reset</button>
                                         </div>
                                     </div>
