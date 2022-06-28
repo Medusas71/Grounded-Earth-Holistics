@@ -66,12 +66,18 @@
             <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="cacao" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Cacao
             </a>
+            <div class="dropdown-menu border-0" aria-labelledby="cacao">
+                <a href="{% url 'products' %}?category=cacao" class="dropdown-item">Cacao</a>
+            </div>
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="gift-packs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="gift_packs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Gift Packs
             </a>
+            <div class="dropdown-menu border-0" aria-labelledby="gift_packs">
+                <a href="{% url 'products' %}?category=gift_packs" class="dropdown-item">Gift Packs</a>
+            </div>
         </li>
     </ul>
 </div>
