@@ -69,13 +69,15 @@
                                         <div class="col">
                                             <p class="lead mb-0 text-left font-weight-bold">${{ product.price }}</p>
                                             {% if product.category %}
-                                            <p class="small mt-1 mb-0">
+                                            <p class="category-text-size">
                                                 <a class="text-muted" href="{% url 'products' %}?category={{ product.category.name }}">
                                                     <i class="fas fa-tag mr-1"></i>{{ product.category.friendly_name }}
                                                 </a>
                                             </p>
                                             {% endif %}
-                                            <a href="{% url 'review' %}">Review</a>
+                                            <a class="text-black review-text-size" href="{% url 'review' %}">
+                                                <i class="far fa-comments fa-lg"></i> Review
+                                            </a>
                                             {% if request.user_%}
                                             {% if request.user.is_superuser %}
                                                 <small class="ml-3">
