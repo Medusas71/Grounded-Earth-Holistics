@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block content %}
+    <div class="container">
+        <div class="row top-margin">
+            <div class="col-12 my-auto">
+                <h1 class="display-4 logo-font about-us-header text-center text-black">
+                    ABOUT US
+                </h1>
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <img src="{{ MEDIA_URL }}mountain.jpg" class="img-fluid rounded" alt="Man standing on rocks on a river with mountains in the background">
+                    </div>
+                    <div class="col-12 col-md-6 body-text d-flex align-items-center">
+                        <span>
+                            <p>
+                                Ever since moving to the Sunshine Coast from The Netherlands when I was a little girl, 
+                                I have always loved being in the Mountains. 
+                                It always makes me feel so grounded and at peace hence the name Grounded Earth Holistics. 
+                                Mother Nature is just amazing - beautiful mountains, the ocean, 
+                                the most amazing sunrises and sunsets, the list is endless. 
+                                So important for our Mind, Body & Soul.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 body-text d-flex align-items-center">
+                        <span>
+                            <p>
+                                I am also very passionate about holistic modalities. I am a Biofield Tuning Therapy 
+                                Practitioner and being a crystal lover and having a passion to help people and animals, 
+                                I am also currently studying to be a Transpersonal Crystal Healer offering advanced 
+                                crystal healing and holistic counselling. 
+                                I would love for you to experience a deeply relaxing session with me with either my 
+                                beautiful Tuning Forks or once I have finished my course, with my beautiful healing crystals.
+                            </p>
+                            <p>
+                                Much love,
+                            </p>
+                            <p>    
+                                Brigitta xx
+                            </p>
+                        </span>                        
+                    </div>
+                    <div class="col-md-6">
+                        <img src="{{ MEDIA_URL }}brigitta-brad.jpg" class="img-fluid home-page-image rounded" alt="Brigitta (owner) and her husband Brad">
+                    </div>
+                </div>                     
+            </div>
+        </div>
+    </div>
+{% endblock %}

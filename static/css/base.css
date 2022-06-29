@@ -23,6 +23,10 @@ h1,h2,h3,h4 {
     background-color: #ECB984;
 }
 
+.about-us-header {
+    margin-bottom: 50px;
+}
+
 /* from Bulma */
 .icon {
     align-items: center;
