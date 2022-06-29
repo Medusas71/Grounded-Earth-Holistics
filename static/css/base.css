@@ -139,6 +139,14 @@ input[name='q']::placeholder {
     margin-top: 10px;
 }
 
+.nav-item-small {
+    font-size: x-small;
+}
+
+.nav-menu {
+    font-size: 15px;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
