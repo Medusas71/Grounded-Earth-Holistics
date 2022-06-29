@@ -3,7 +3,6 @@
 from django.db import models
 from django.db.models.signals import pre_save
 from django.utils.text import slugify
-from django.dispatch import receiver
 from django.contrib.auth.models import User
 
 
