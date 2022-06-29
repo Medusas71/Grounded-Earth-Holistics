@@ -21,3 +21,9 @@ def grounding(request):
     """ A view about grounding """
 
     return render(request, 'home/grounding.html')
+
+
+def tuning_therapy(request):
+    """ A view about tuning therapy """
+
+    return render(request, 'home/tuning_therapy.html')

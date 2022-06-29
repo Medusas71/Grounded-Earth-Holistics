@@ -36,7 +36,8 @@ h1,h2,h3,h4 {
     margin-bottom: 10px;
 }
 
-.grounding-image {
+.grounding-image,
+.tuning-therapy-image {
     width: 500px;
 }
 
