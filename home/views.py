@@ -15,3 +15,9 @@ def about(request):
     """ A view to the about page """
 
     return render(request, 'home/about.html')
+
+
+def grounding(request):
+    """ A view about grounding """
+
+    return render(request, 'home/grounding.html')

@@ -23,9 +23,23 @@ h1,h2,h3,h4 {
     background-color: #ECB984;
 }
 
-.about-us-header {
+.about-us-header,
+.grounding-header {
     margin-bottom: 50px;
 }
+
+.grounding-headings {
+    font-size: 30px;
+}
+
+.grounding-margin {
+    margin-bottom: 10px;
+}
+
+.grounding-image {
+    width: 500px;
+}
+
 
 /* from Bulma */
 .icon {
