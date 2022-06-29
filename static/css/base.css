@@ -11,6 +11,10 @@ body {
     margin-top: 200px;
 }
 
+.products-top-margin {
+    margin-top: 50px;
+}
+
 .container {
     margin-bottom: 10px;
 }
@@ -381,15 +385,14 @@ input[name='q']::placeholder {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 200px;
     }
-
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 116px;
+        padding-top: 160px;
     }
 
     body {

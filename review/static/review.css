@@ -215,13 +215,13 @@ a.text-danger:hover,
 @media screen and (min-width: 992px) {
     
     .mt-4, .my-4 {
-        margin-top: 20.5rem !important;
+        margin-top: 13rem !important;
     }
 }
 
 @media screen and (min-width: 1200px) {
     
     .mt-4, .my-4 {
-        margin-top: 18.5rem !important;
+        margin-top: 15rem !important;
     }
 }
