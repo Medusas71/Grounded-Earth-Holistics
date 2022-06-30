@@ -5,6 +5,8 @@ html {
 body {
     height: calc(100vh - 164px);
     font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .top-margin {
@@ -241,6 +243,10 @@ input[name='q']::placeholder {
 }
 
 /*----------------------------------------------------Footer*/
+
+.footer {
+    margin-top: auto;
+}
 
 .footer-background {
     background-color: #ECB984;
