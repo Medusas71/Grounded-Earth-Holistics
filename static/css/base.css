@@ -403,6 +403,8 @@ input[name='q']::placeholder {
 
     body {
         height: calc(100vh - 116px);
+        display: flex;
+        flex-direction: column;
     }
 
     .display-4.logo-font.text-black {
