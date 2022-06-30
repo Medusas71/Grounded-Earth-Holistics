@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Review page */
 
 /* truncate text if product name too long https: //css-tricks.com/flexbox-truncated-text/  */
@@ -5,7 +12,8 @@
 .product-trunc {
     white-space: nowrap;
     overflow: hidden;
-    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
 }
 
 .mt-4, .my-4 {
