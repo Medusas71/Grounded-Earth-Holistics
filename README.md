@@ -260,9 +260,13 @@ Super User / Site Owner:
 **Future Features to implement**
 
 * Attach reviews to each product rather than have just a generic reviews page
+* To view others comments without having to log in
 * Remove the American side of payment and use Australian payment system
 * Change the time zone to Australia, so Australia residents know what time they have submitted their purchases
 * Create a rating system for each product
+* A contact us page
+* Terms and Conditions
+* Refund Policy
 
 [Back to Table of Contents](#table-of-contents)
 
