@@ -259,6 +259,11 @@ Super User / Site Owner:
 <a id="future-features"></a>
 **Future Features to implement**
 
+* Attach reviews to each product rather than have just a generic reviews page
+* Remove the American side of payment and use Australian payment system
+* Change the time zone to Australia, so Australia residents know what time they have submitted their purchases
+* Create a rating system for each product
+
 [Back to Table of Contents](#table-of-contents)
 
 <a id="technologies-used"></a>
@@ -317,14 +322,67 @@ Super User / Site Owner:
 <a id="lessons-learned"></a>
 # Lessons Learned
 
+* That I can produce a functional website in a short amount of time, even though I only had 19 days to start and complete the module and produce my MS4
+* Don't rely on Tutor Support to be available 24/7 during weekdays
+* That I am grateful that I have students that I can call on when I receive errors
+* Django is a beast within itself and I still have a lot to learn about the program
+* Not to give up when times are tough
+
 [Back to Table of Contents](#table-of-contents)
 
 <a id="deployment"></a>
 # Deployment
 
+The code for this website was written in [Gitpod](https://www.gitpod.io/), pushed to [GitHub](https://github.com/) and was deployed using [Heroku](https://www.heroku.com/).
+
+The following process was used to deploy this website:
+
+1. Create a "requirements.txt" file using the command "pip3 freeze --local > requirements.txt"
+1. Create a "Procfile" using the command "echo web: python app.py > Procfile"
+1. Push these changes to your repository by using "git add .", "git commit -m 'your commit message here'" and then "git push"
+1. Login or sign up to Heroku
+1. Click "New" on the top right of the dashboard and select "Create new app"
+1. Include an "App name", choose a region and click "Create app"
+1. Click the "Deploy" tab and under "Deployment method" select "GitHub"
+1. Search to find your GitHub repository and click "Connect". Please note: do not enable automatic deployment yet as this will cause errors
+1. Click the "Settings" tab and click "Reveal Config Vars" from Config Vars
+1. Enter the key value pairs that match those in your env.py file:
+
+| Key      | Value       | 
+| -------- | ----------- |
+| IP | 0.0.0 |
+| PORT | 5000 |
+| SECRET_KEY | "Your Secret Key" |
+| STRIPE_PUBLIC_KEY | "Stripe Public Key" |
+| STRIPE_SECRET_KEY | "Your Stripe Secret Key" |
+| STRIPE_WH_KEY | "Stripe Webhooks Key |
+
+13. Go back to the "Deploy" tab and click "Enable Automatic Deployment"
+14. Still in the "Deploy" tab under "Manual deploy", select "main"
+15. Click "Deploy Branch"
+16. Once the app has finished building click "Open App" to open your site.
+
 **How to Fork a Repository**
 
+1. Login to GitHub
+1. On GitHub go to: https://github.com/Medusas71/Megs-Italian-Kitchen
+1. Click "Fork" on the top right of the screen.
+
 **Run this site locally/clone site**
+
+You can clone this repository directly into an editor of your choice and run the site locally.
+
+To do this:
+
+* From the [GitHub repository](https://github.com/Medusas71/Grounded-Earth-Holistics) which is on the 'Code' heading page
+* Click the dropdown 'Code' button which is next to the green Gitpod button
+* You can either copy the link into your own IDE or 'Download Zip' which can be unzipped on your local machine
+* If you are copying the link into your own IDE - Open Git Bash
+* Change the current working directory to the location where you want the cloned directory
+* Type "git clone", and then paste the URL you copied earlier
+* Press "Enter" to create your local clone
+* Click index.html in the created folder and the website will open up in the default browser  
+Please Note: That if you are wanting to use Gitpod as your IDE you will need to install the [Gitpod Browser Extension for Chrome](https://www.gitpod.io/docs/browser-extension/). After installation, restart the browser.
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -333,10 +391,23 @@ Super User / Site Owner:
 
 Code
 
+* A large portion of the code was developed following the Code Institute's Boutique Ado walkthrough
+* I followed [MDB - mdbootstrap](https://mdbootstrap.com/how-to/bootstrap/footer-add/) on how to add a footer
+
 Content  
+
+* Majority of the content was taken from the original [Grounded Earth Holistics website](https://www.groundedearthholistics.com.au/) 
+with permission from the business to use their website for my project
 
 Media
 
+* All of the images were taken from the original [Grounded Earth Holistics website](https://www.groundedearthholistics.com.au/) 
+with permission from the business to use their website for my project
+
 Acknowledgements
+
+* My friends and family for all their feedback and support
+* My mentor for all his support and assistance
+* [Manni_alumnus](https://github.com/manni8436) for his continued support, feedback and keeping me motivated to finish
 
 [Back to Table of Contents](#table-of-contents)
