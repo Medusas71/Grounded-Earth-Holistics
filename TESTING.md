@@ -247,10 +247,7 @@ Below is the lighthouse score for each page on mobile and desktop:
 <a id="wave"></a>
 ## Wave Report  
 
-<details open>
-<summary><b>(click to expand or hide)</b></summary>
 
-</details>
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -258,6 +255,110 @@ Below is the lighthouse score for each page on mobile and desktop:
 ## User Stories 
 
 ### Testing User Stories from the UX section of [the main README.md document](README.md)
+
+Each screenshot displays a red square around each item that is needed to achieve the testing criteria.
+
+### First Time Customer Goals
+
+* As a first time customer to the website, I would like to search for products.
+  * This is achieved by 
+
+
+* As a first time customer to the website, I would like to see the number of products that are available.
+  * This is achieved by
+
+* As a first time customer to the website, I would like to view all products.
+  * This is achieved by
+
+
+* As a first time customer to the website, I would like to view individual product details.
+  * This is achieved by
+
+
+* As a first time customer to the website, I would like to sort the list of available products by price.
+  * This is achieved by
+
+
+* As a first time customer to the website, I would like to sort the list of available products by category.
+  * This is achieved by
+
+
+* As a first time customer to the website, I would like to read reviews about a product.
+  * This is achieved by
+
+
+* As a first time customer to the website, I would like to view holistic services.
+  * This is achieved by
+
+
+* As a first time customer to the website, I would like to increase and decrease the item quantity.
+  * This is achieved by
+
+
+* As a first time customer to the website, I would like to be able to purchase products through a secure checkout.
+  * This is achieved by
+
+
+* As a first time customer to the website, I would like to view items in my shopping bag.
+  * This is achieved by
+
+
+* As a first time customer to the website, I would like to adjust items in my shopping bag.
+  * This is achieved by
+
+
+* As a first time customer to the website, I would like to receive confirmation that the products have been purchased.
+  * This is achieved by
+
+
+* As a first time customer to the website, I would like to create an account.
+  * This is achieved by
+
+* As a first time customer to the website, I would like to receive confirmation that the account has been created
+  * This is achieved by
+
+
+### Returning Customer Goals
+
+* As a returning customer to the website, I would like to have the ability to log in so my information is saved.
+  * This is achieved by
+
+
+* As a returning customer to the website, I would like to be able to log out of the site.
+  * This is achieved by
+
+
+
+* As a returning customer to the website, I would like to recover my password in case I forget it.
+  * This is achieved by
+
+
+
+
+* As a returning customer to the website, I would like to create, update and delete my own reviews.
+  * This is achieved by
+
+
+
+* As a returning customer to the website, I would like to read other reviews.
+  * This is achieved by
+
+
+
+### Site Owner Goals
+
+* As a site owner of the website, I would like to be able to add products.
+  * This is achieved by
+
+
+* As a site owner of the website, I would like to be able to edit products.
+  * This is achieved by
+
+
+* As a site owner of the website, I would like to be able to delete products.
+  * This is achieved by
+
+
 
 <details open>
 <summary><b>(click to expand or hide)</b></summary>
