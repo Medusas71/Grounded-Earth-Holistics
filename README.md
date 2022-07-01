@@ -43,6 +43,8 @@ Grounded Earth Holistics is an e-commerce site that has been created for custome
 
 Some of the content and all images have been copied from [Grounded Earth Holistics](https://www.groundedearthholistics.com.au/) with their permission.
 
+The final project was submitted 1/07/2022.
+
 [Back to Table of Contents](#table-of-contents)
 
 <a id="user-experience-(ux)"></a>
