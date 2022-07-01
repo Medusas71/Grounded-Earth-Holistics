@@ -614,3 +614,20 @@ No errors were found when testing on the above devices.
 <a id="bugs-fixes"></a>
 ## Bugs/Fixes  
 
+Most bugs were user error that I fixed up as I went through.
+
+**Navigation Menu**
+
+**Issue**:
+When looking at the navigation menu at 992px, I found that the logo was too big and I had too many menu items for the size of the screen. This was affecting every page where you couldn't see the title.
+* **FIX**:
+I changed the look of the menu so it displayed the hamburger menu for 992px and this fixed the issue.
+
+**Outstanding Bugs**
+There are some outstanding bugs that unfortunately I haven't been able to fix due to restricted time frames. 
+
+* Footer - For the life of me I cannot keep the footer down the bottom of the page when there isn't much content displaying on the page. This is something that I will be fixing after the project has been assessed.
+* Shopping Bag - Once you have a product in the shopping bag, you can change the quantity to be below zero. This will be fixed after the project has been assessed.
+* View comments - Presently you have to be logged in to view comments. This will be fixed after the project has been assessed so that any person can view the comments.
+* Forget Password - Once you click the Forgot Password link you aren't taken anywhere. This will be fixed after the project has been assessed.
+* Purchase Confirmation Email - Once the customer has made a purchase, they receive an email stating what they have purchased. Unfortunately the monetary amounts are missing from this email. This will be fixed after the project has been assessed.
