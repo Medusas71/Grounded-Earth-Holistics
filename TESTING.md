@@ -48,7 +48,7 @@ Unfortunately due to time restraints I haven't been able to fix this. This will 
 * This error I have found very confusing. I don't understand how to fix it, even after researching it on Stack Overflow. 
 Unfortunately due to time restraints this error will get looked into more closely after I have completed the course.
 
-*[W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to ensure that there were no errors or warnings in my CSS document and validated by direct input. I had no errors or warning display.
+* [W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/#validate_by_input) was used to ensure that there were no errors or warnings in my CSS document and validated by direct input. I had no errors or warning display.
 
 ![W3C CSS Validation Results](/static/images/testing-images/w3c/css-validation-results.jpg)
 
@@ -58,6 +58,10 @@ were included in CSS. the results were copied into the style.css file.
 * [Pep8](http://pep8online.com/) was used to check every .py file. No errors or warnings displayed.
 
 ![pep8](/static/images/testing-images/pep8.jpg)
+
+* Flake8 issues - I ran the code for Flake8 in the terminal and had a few errors display. The ones from .vscode I haven't touched as I don't generate that file and when I tried to change things it didn't like it and I didn't want to break anything so I left them. The other error is in my checkout/apps.py file which is reading that I have imported 'checkout.signals' but it hasn't been used. I did delete this and I found that my totals weren't displaying on the Thank You Confirmation page, so I have put the code back in. I'm not quite sure in how to fix this error.
+
+![flake8](/static/images/testing-images/flake8-issues.jpg)
 
 [Back to Table of Contents](#table-of-contents)
 
