@@ -15,7 +15,6 @@
 [Testing](#testing)
 * [Validators](#validators)
 * [Lighthouse](#lighthouse)
-* [Wave Report](#wave)
 * [User Stories](#user-stories)
 * [Manual Testing](#manual-testing)
 * [Bugs/Fixes](#bugs-fixes)
@@ -244,13 +243,6 @@ Below is the lighthouse score for each page on mobile and desktop:
 
 [Back to Table of Contents](#table-of-contents)
 
-<a id="wave"></a>
-## Wave Report  
-
-
-
-[Back to Table of Contents](#table-of-contents)
-
 <a id="user-stories"></a>
 ## User Stories 
 
@@ -470,9 +462,146 @@ iPhone 12
 
 No errors were found when testing on the above devices.
 
+<details open>
+<summary><b>(click to expand or hide)</b></summary>
+  
+
+### User not logged in
 
 | Page      | Section       | Action        | Expected Behaviour     | Result   |  
 | --------- | ------------- | ------------- | ---------------------- | -------- |
+| Home Page | Tab at top of page | On a desktop go to https://grounded-earth-holistics.herokuapp.com/ | The Home Page displays; there is a favicon displaying in the tab and the tab is named Grounded Earth Holistics | Pass |
+|           | Navigation Bar (User is not logged in) | The name “Grounded Earth Holistics” displays on the left hand side and when clicked returns you to the Home Page | The Home Page displays | Pass |
+|           |   | There is a search field where you can search the site. Type in “crystals” | All products that have Crystal in the name display | Pass |
+|           |   | There is a Review link and when clicked you are taken to the Review Page | The Review Page displays | Pass |
+|           |   | There is a My Account link and when clicked you have an option to either Register or Login | The 2 options display | Pass |
+|           |   | Click Register | The Sign Up page displays | Pass | 
+|           |   | Click Login | The Sign In page displays | Pass | 
+|           |   | There is a shopping bag link and when clicked takes you to the shopping bag | The Shopping Bag page displays | Pass | 
+|           |   | There are 8 navigation menu links | Home, Holistic Services, All Products, Crystals, Candles & Candle Holders, Bath Luxuries, Cacao & Gift Packs display | Pass | 
+|           |   | Click the Home Page link | The Home Page displays | Pass | 
+|           |   | Click the Holistic Services link | 2 options display being Tuning Therapy and Grounding | Pass | 
+|           |   | Click the All Products link | 3 options display being By Price, By Category, All Products | Pass | 
+|           |   | Click the Crystals link | 9 options display being Slabs, Carvings, Spheres, Towers, Clusters, Geodes, Roughs, Accessories, All Crystals | Pass | 
+|           |   | Click the Candles & Candle Holders link | 2 options display being Candles, Candle Holders | Pass | 
+|           |   | Click the Bath Luxuries link | 2 options display being Bath Salts, Body Scrubs | Pass | 
+|           |   | Click the Cacao link | 1 option displays being Cacao | Pass | 
+|           |   | Click the Gift Packs link | 1 option displays being Gift Packs | Pass | 
+|           | Main | Confirm the Home Page text displays | The home page text displays with 2 images, wording, a Shop Now button and a Read More button | Pass | 
+|           |   | Click the Shop Now button | The Products page displays | Pass | 
+|           |   | Click the Read more link | The Biofield Tuning page displays | Pass | 
+|           | Footer | Confirm there is an “About” link and click the link | The About Us page displays | Pass | 
+|           |   | Confirm the “copyright” information and “developed by” information and a spiel about the site being made for educational purposes display | Copyright, Developed By and a spiel about the site being made for educational purposes display | Pass |
+|           |   | Confirm there is a Facebook link, click the link | The Facebook page for Grounded Earth Holistics displays in a new tab | Pass | 
+|           |   | Confirm there is an Instagram link, click the link | The Instagram page for Grounded Earth Holistics displays in a new tab | Pass | 
+|           | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The page displays correctly | Pass | 
+|           |   | Change the pixels to 992px | The hamburger menu displays | Pass | 
+|           |   | Click the hamburger menu and check that the correct menu displays | Home, Holistic Services, All Products, Crystals, Candles & Candle Holders, Bath Luxuries, Cacao and Gift Packs display | Pass | 
+|           |   | Click each menu item to confirm the appropriate drop-down menus display | The appropriate drop-down menu displays | Pass | 
+| Holistic Services – Tuning Therapy | Main | On a desktop click the Tuning Therapy in the drop-down menu on the navigation bar | The Biofield Tuning page displays | Pass |
+|           |   | Confirm the text displays and there are 2 images on the page | The text displays and there are 2 images displaying | Pass | 
+|           | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The page displays correctly | Pass | 
+| Holistic Services – Grounding | Main | On a desktop click Grounding in the drop-down menu on the navigation bar | The Grounding page displays | Pass | 
+|           |   | Confirm the text displays and 6 images display at the bottom of the page | The text displays and there are 6 images displaying at the bottom of the page | Pass | 
+|           | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The page displays correctly | Pass | 
+| All Products – By Price | Main | Click the By Price in the drop-down menu on All Products on the navigation bar | All 39 products display | Pass | 
+|           |   | Confirm that all products are displaying by price | All products are displaying by Price | Pass | 
+|           |   | Confirm there is a drop-down menu where you can sort by various options | Drop-down menu displays where you can sort by Price (low to high), Price (high to low), Name (A-Z), Name (Z-A), Category (A-Z), Category (Z-A) | Pass | 
+|           |   | Confirm there are no missing images | There are no missing images | Pass | 
+|           |   | Confirm that each product has a name, price, a category and a review | Each product has a name, price, category and a review | Pass | 
+|           | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The page displays correctly | Pass | 
+| All Products- By Category | Main | Click the By Category in the drop-down menu on All Products on the navigation bar | All 39 products display | Pass | 
+|           | Confirm that all products are displaying by category order | All products are displaying by Category order | Pass | 
+|           |   | Confirm there is a drop-down menu where you can sort by various options | Drop-down menu displays where you can sort by Price (low to high), Price (high to low), Name (A-Z), Name (Z-A), Category (A-Z), Category (Z-A) | Pass | 
+|           |   | Confirm there are no missing images | There are no missing images | Pass | 
+|           |   | Confirm that each product has a name, price, a category and a review | Each product has a name, price, category and a review | Pass | 
+|           | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The page displays correctly | Pass | 
+| All Products – All Products | Main | Click the All Products in the drop-down menu on the All Products on the navigation bar | All 39 products display | Pass | 
+|           |   | Confirm there is a drop-down menu where you can sort by various options | Drop-down menu displays where you can sort by Price (low to high), Price (high to low), Name (A-Z), Name (Z-A), Category (A-Z), Category (Z-A) | Pass | 
+|           |   | Confirm there are no missing images | There are no missing images | Pass | 
+|           |   | Confirm that each product has a name, price, a category and a review | Each product has a name, price, category and a review | Pass | 
+|           |   | Click the Category link under the product image | You are taken to that particular category where the products display | Pass | 
+|           |   | Click the Review link | The Review page displays | Pass | 
+|           | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The page displays correctly | Pass | 
+| Crystals  | Main | Click Slabs from the Crystals drop-down menu on the navigation bar | The products display | Pass | 
+|           |   | Click Carvings from the Crystals drop-down menu on the navigation bar | The products display | Pass | 
+|           |   | Click Spheres from the Crystals drop-down menu on the navigation bar | The products display | Pass | 
+|           |   | Click Towers from the Crystals drop-down menu on the navigation bar | The products display | Pass | 
+|           |   | Click Clusters from the Crystals drop-down menu on the navigation bar | The products display | Pass | 
+|           |   | Click Geodes from the Crystals drop-down menu on the navigation bar | The products display | Pass | 
+|           |   | Click Roughs from the Crystals drop-down menu on the navigation bar | The products display | Pass | 
+|           |   | Click Accessories from the Crystals drop-down menu on the navigation bar | The products display | Pass | 
+|           |   | Click All Crystals from the Crystals drop-down menu on the navigation bar | The products display | Pass | 
+|           | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The page displays correctly | Pass | 
+| Candles & Candle Holders | Main | Click Candles from the Candles & Candle Holders drop-down menu on the navigation bar | The products display | Pass | 
+|           |   | Click Candle Holders from the Candles & Candle Holders drop-down menu on the navigation bar | The products display | Pass | 
+|           | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The page displays correctly | Pass | 
+| Bath Luxuries | Main | Click Bath Salts from the Bath Luxuries drop-down menu on the navigation bar | The products display | Pass | 
+|           |   | Click Body Scrubs from the Bath Luxuries drop-down menu on the navigation bar | The products display | Pass | 
+|           | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The page displays correctly | Pass | 
+| Cacao     | Main | Click Cacao from the Cacao drop-down menu on the navigation bar | The products display | Pass | 
+|           | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The page displays correctly | Pass | 
+| Gift Packs | Main | Click Gift Packs from the Gift Packs drop-down menu on the navigation bar | The products display | Pass | 
+|           | Responsiveness | Go to Dev Tools and confirm the page displays correctly when you reduce and expand the margins | The page displays correctly | Pass | 
+| Review    | Main | Click Review from the header | The Welcome to the Review Page displays | Pass | 
+|           |   | Search for a product and click Review under the product name | The Welcome to the Review Page displays | Pass | 
+|           |   | Click New Post | You are prompted to Sign In | Pass | 
+| My Account | Register | Click Register | The Sign Up page displays | Pass | 
+|           |   | Sign Up for Account | An alert displays on the right hand side of the screen and a Verify your e-mail address displays | Pass | 
+|           |   |   | You also receive an email to verify your account | Pass | 
+|           |   | Click the link in the email | The confirm email address screen displays | Pass | 
+|           |   | Click Confirm | A success alert displays on the right hand side of the screen and the Sign In page displays | Pass | 
+|           | Login | Click Login | The Sign In page displays | Pass | 
+|           |   | Sign In | A success alert displays on the right hand side of the screen | Pass | 
+|           | Logout | Click Logout from the My Account drop-down menu | A Sign Out page displays | Pass | 
+|           |   | Click Sign Out | A success alert displays on the right hand side of the screen | Pass | 
+| Shopping Bag | Shopping Bag | Click the Shopping Bag icon from the header | The Shopping Bag displays advising your bag is empty | Pass | 
+|           | Quantity of Item | Search for an item and confirm that you can use the plus and minus to either increase or decrease the quantity | The quantity either increases of decreases | Pass | 
+|           | Add to Bag | Click Add to Bag | A success message displays with what the item is in your bag, how much more money you need to spend to get free delivery and a link to the Secure Checkout | Pass | 
+|           | Confirming the item has been added to the bag | Click Secure Checkout | The Shopping Bag displays with the item/s displayed | Pass | 
+|           | Quantity of Item | Confirm that you can increase and decrease the quantity and click Update | A success message displays stating that your purchase has been updated | Pass | 
+|           |   | Click Remove | A success message displays stating that your purchase has been removed | Pass | 
+| Secure Checkout | Checkout | Click Secure Checkout | The checkout page displays | Pass | 
+|           |   | Click Complete Order | A prompt advises you to complete the fields | Pass | 
+|           |   | Complete each field | All fields can be completed | Pass | 
+|           | Payment | Enter only part of the testing card number of 42424242 | A prompt displays stating your card number is incomplete | Pass | 
+|           |   | Enter the testing card number, month, year, CVC and ZIP and click Complete Order | A blue screen displays as the payment is processing and then a Thank You Page displays | Pass | 
+| Thank You | Thank You | Confirm the order information | A success message displays in the top right hand corner of the screen, a confirmation email is sent to the customer, all of the order information is complete | Pass | 
+
+### Logged in User
+
+| Page      | Section       | Action        | Expected Behaviour     | Result   |  
+| --------- | ------------- | ------------- | ---------------------- | -------- |
+| Shopping Bag Details | Confirm email address is populated | Add a product & Go to the checkout | The email address is populated | Pass | 
+|           | Save the delivery information to My Profile | Complete the checkout process and ensure that “Save this delivery information to my profile” is ticked | The checkout process is completed and the checkbox is ticked | Pass | 
+| My Profile | My Profile | Click My Profile from the My Account drop-down menu | My Profile page displays | Pass | 
+|           |   | Confirm the Default Delivery Information is populated | The Default Delivery Information is populated with my details | Pass | 
+|           |   | Confirm the Order History displays | The Order History displays | Pass | 
+|           |   | Click an Order Number | The Thank You page displays and an Alert displays in the top right hand corner of the screen | Pass | 
+|           |   | Click Back to Profile button | The My Profile page displays | Pass | 
+| Review    | Add a Review | Click Review from the header | The Review page displays | Pass | 
+|           |   | Click New Post button | The Add a New Review page displays | Pass | 
+|           |   | Click Cancel | The Welcome to the Review page displays | Pass | 
+|           |   | Click New Post button again and add a title and some content and click Add Post button | The added post displays | Pass | 
+|           | Edit a Review | Click Edit Post button | The Edit a Review page displays | Pass | 
+|           |   | Click Cancel | You are taken back to your post | Pass | 
+|           |   | Click Edit Post button, make a change to your post and click Update Post | The changes have taken effect | Pass | 
+| Comments  | Add a Comment | Add a comment that is next to the review and click Reset | The comment is removed | Pass | 
+|           |   | Add a comment and click Submit | The comment is added | Pass | 
+| Review    | Delete a Review | On your review click Delete | A confirmation modal displays | Pass | 
+|           |   | Click the Cancel button | You are taken back to your post | Pass | 
+|           |   | Click Delete and click Delete on the confirmation modal | You are taken back to the Review Page, a success message displays on the top right hand corner of the screen and your review is deleted | Pass | 
+
+### Site Owner
+
+| Page      | Section       | Action        | Expected Behaviour     | Result   |  
+| --------- | ------------- | ------------- | ---------------------- | -------- |
+| Product Management | Add a Product | Once the site owner is logged in, go to My Account from the header and select Product Management | The Add a Product page displays | Pass | 
+|           |   | Complete the form | The form is completed | Pass | 
+|           |   | Click Add Product | The product is added to the appropriate category | Pass | 
+|           | Edit a Product | Click Edit on the product details page | The Edit a Product page displays and an alert displays in the top right hand corner of the screen | Pass | 
+|           |   | Make a change to the product and click Update Product | The change is displayed and a success message displays in the top right hand corner of the screen | Pass | 
+|           | Delete a Product | Click Delete Product | The product is deleted | Pass | 
 
 </details> 
 
