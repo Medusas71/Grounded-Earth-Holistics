@@ -1,1 +1,0 @@
-web: gunicorn grounded_earth_holistics.wsgi:application
